@@ -1,0 +1,113 @@
+.about-me {
+  display: flex;
+  flex-direction: column;
+}
+.about-me__header {
+  padding-bottom: 22px;
+  font-size: 5.75rem;
+  line-height: 5rem;
+
+  background-image: url(./../icons/Vector1.png);
+  background-size: 18rem;
+  background-repeat: no-repeat;
+  background-position: bottom left;
+}
+.about-me__photo {
+  width: 100%;
+  height: 243px;
+
+  background-image: url(./../images/Image.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.about-me__text {
+  margin-top: 32px;
+
+  background-image: url(./../icons/Decoration.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  padding-left: 15px;
+}
+.about-me__p2 {
+  margin-top: 24px;
+}
+.skills__header {
+  margin-top: 32px;
+  font-size: 3.25rem;
+}
+.skills__item {
+  display: flex;
+  justify-content: space-between;
+  background-position: rool;
+
+  width: 100%;
+  height: 117px;
+}
+
+.skills-icon__react,
+.skills-icon__node,
+.skills-icon__mysql {
+  width: 84px;
+  height: 84px;
+
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.skills-icon__react {
+  background-image: url(./../images/Frame3.png);
+}
+.skills-icon__node {
+  background-image: url(./../images/Frame2.png);
+}
+.skills-icon__mysql {
+  background-image: url(./../images/Frame1.png);
+}
+.skills-text__react,
+.skills-text__node,
+.skills-text__mysql {
+  margin-top: 16px;
+
+  font-family: Poppins;
+  font-weight: 500;
+  text-align: center;
+}
+
+
+
+@media screen and (min-width: 1000px) {
+  .about-me {
+    display: flex;
+    flex-wrap: wrap;
+    height: 788px;
+  }
+  .about-me__photo {
+    order: 1;
+
+    height: 788px;
+    margin-top: 259px;
+
+    background-size: 70%;
+    background-position: left;
+  }
+  .about-me__text {
+    width: 45%;
+    height: 128px;
+    padding-bottom: 40px;
+  }
+  .skills__item {
+    justify-content: space-between;
+
+    width: 40%;
+    height: 128px;
+  }
+  .skills {
+    margin-top: 60px;
+  }
+  .skills-icon__react,
+  .skills-icon__node,
+  .skills-icon__mysql {
+    width: 148px;
+    height: 148px;
+  }
+}

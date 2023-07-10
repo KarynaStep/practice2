@@ -6,11 +6,125 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Resume Jason Stull</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600&display=swap" rel="stylesheet">
+  <!-- <link rel="stylesheet" href="./assets/css/reset.css"> -->
   <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/nav.css">
+  <link rel="stylesheet" href="./assets/css/home.css">
+  <link rel="stylesheet" href="./assets/css/projects.css">
+  <link rel="stylesheet" href="./assets/css/about_me.css">
+  <link rel="stylesheet" href="./assets/css/footer.css">
 </head>
 
 <body>
+  <div class="wrapper">
+    <header>
+      <nav class="nav">
+        <div>
+          <div class="nav__logo-img"></div>
+          <div class="nav__logo-text"></div>
+        </div>
+        <div class="nav__burger">
+          <div class="header__main">
+            <a href="#project" class="header__main-link link-orange">Projetos</a>
+            <a href="#about-me" class="header__main-link link-bluу">Sobre mim</a>
+            <a href="#footer-contato" class="header__main-link link-green">Contato</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="home">
+        <div class="home__img"></div>
+        <p class="home__content">Olá, eu sou o Alê 🤙</p>
+        <h2 class="home__title">Desenvolvo <span class="home__accent-line"><strong
+              class="home__accent">ideias</strong></span> e ajudo a construir um mundo melhor através do software.</h2>
+        <div class="home__btn-gruoup">
+          <button class="home__btn">Contato</button>
+          <a class="home__link" href="">Download CV</a>
+        </div>
+      </section>
+      <section class="project" id="project">
+        <h2 class="project__h2">Ultimos Projetos</h2>
+        <article class="project__article">
+          <h3 class="project__header">E-commerce</h3>
+          <button class="project__button color-blue">React</button>
+          <button class="project__button color-red">Rest API</button>
+          <img class="project__img" src="./assets/images/Project1.png" alt="Project1">
+          <a class="project__link1" href="#">Github</a>
+          <a class="project__link2" href="#">Deploy</a>
+        </article>
 
+        <article class="project__article">
+          <h3 class="project__header">Trybe Course</h3>
+          <button class="project__button color-blue">React native</button>
+          <button class="project__button color-black">Redux</button>
+          <img class="project__img" src="./assets/images/Project2.png" alt="Project2">
+          <a class="project__link1" href="#">Github</a>
+          <a class="project__link2" href="#">Deploy</a>
+        </article>
+
+        <article class="project__article">
+          <h3 class="project__header">Trybetunes</h3>
+          <span class="button-grup"><button class="project__button color-blue">HTML</button>
+            <button class="project__button color-green">CSS</button>
+            <button class="project__button color-orange">JS</button>
+            <button class="project__button color-black">Redux</button> <button
+              class="project__button color-blue">HTML</button> <button class="project__button color-green">CSS</button>
+            <button class="project__button color-orange">JS</button>
+            <button class="project__button color-black">Redux</button></span>
+          <img class="project__img" src="./assets/images/Project3.png" alt="Project3">
+          <a class="project__link1" href="#">Github</a>
+          <a class="project__link2" href="#">Deploy</a>
+        </article>
+        <div class="project__nav">
+          <div class="back"></div>
+          <div class="next"></div>
+        </div>
+      </section>
+      <section class="about-me" id="about-me">
+        <h2 class="about-me__header">Sobre <br> mim</h2>
+        <div class="about-me__photo"></div>
+        <div class="about-me__text">
+          <p>Tenho 20 anos, estou em transição de carreira, vindo da área administrativa onde desenvolvi experiência
+            comgestão de pessoas, gestão de empresas e negociação com cliente.</p>
+          <p class="about-me__p2">Hoje construo aplicações fullstack!</p>
+        </div>
+        <article class="skills">
+          <h3 class="skills__header">Skills</h3>
+          <div class="skills__item">
+            <div class="react">
+              <div class="skills-icon__react"></div>
+              <p class="skills-text__react">React</p>
+            </div>
+            <div class="node">
+              <div class="skills-icon__node"></div>
+              <p class="skills-text__node">Node.js</p>
+            </div>
+            <div class="mysql">
+              <div class="skills-icon__mysql"></div>
+              <p class="skills-text__mysql">MySQL</p>
+            </div>
+          </div>
+        </article>
+      </section>
+    </main>
+  </div>
+  <footer class="footer" id="footer-contato">
+    <div class="footer_container">
+      <h2 class="footer__header">Tem alguma ideia?</h2>
+      <p class="footer__call">Vamos construí-la juntos!</p>
+      <a class="footer__mail" href="mailto:hello@achtenberg.io">hello@achtenberg.io</a>
+      <a class="footer__twitter" href="https://twitter.com"></a>
+      <a class="footer__linkedin" href="https://www.linkedin.com"></a>
+    </div>
+    <div class="footer-photo"></div>
+    <p class="footer__developed">Developed by Alessandro Achtenberg</p>
+  </footer>
 </body>
 
 </html>

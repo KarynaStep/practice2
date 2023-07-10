@@ -1,0 +1,134 @@
+.project__article {
+  width: 100%;
+}
+
+.project__h2 {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+
+  font-size: 3.5rem;
+  line-height: 3rem;
+}
+
+.project__header {
+  margin-bottom: 1.3rem;
+  margin-top: 40px;
+
+  font-size: 2rem;
+}
+
+.project__button {
+  border: none;
+
+  padding: 8px 16px;
+  border-radius: 32px;
+  margin-bottom: 20px;
+
+  color: white;
+}
+
+.button-grup {
+  white-space: nowrap;
+  width: 100%;
+  /* text-overflow: ellipsis; */
+}
+
+.color-blue {
+  background-color: #38BDF8;
+}
+
+.color-red {
+  background-color: #F43F5E;
+}
+
+.color-black {
+  background-color: #111827;
+}
+
+.color-green {
+  background-color: #34D399;
+}
+
+.color-orange {
+  background-color: #F59E0B;
+}
+
+.project__img {
+  width: 100%;
+}
+
+.project__link1 {
+  padding-right: 1.5rem;
+  margin-left: 14px;
+
+  background-image: url(./../icons/Vector.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center right;
+  background-size: 25%;
+}
+
+.project__link2 {
+  padding-right: 1.5rem;
+  margin-left: 20px;
+
+  background-image: url(./../icons/heroicons-solid_globe-alt.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center right;
+  background-size: 25%;
+}
+
+.project__nav {
+  display: flex;
+  justify-content: end;
+  align-content: center;
+
+  margin-top: 40px;
+}
+
+.back {
+  width: 72px;
+  height: 48px;
+  margin-top: 10px;
+  margin-right: 16px;
+
+  background-image: url(./../icons/Text.png);
+  background-repeat: no-repeat;
+}
+
+.next {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+
+  background-image: url(./../icons/Next.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+@media screen and (min-width: 1200px) {
+  .project__article {
+    display: inline-block;
+    width: 30%;
+    margin-right: 21px;
+  }
+
+  .back {
+    width: 64px;
+    height: 64px;
+    margin-top: 0;
+
+    background-image: url(./../icons/Icon.png);
+    background-repeat: no-repeat;
+  }
+
+  .next {
+    width: 64px;
+    height: 64px;
+  }
+
+  .project__nav {
+    margin-top: 60px;
+  }
+}
